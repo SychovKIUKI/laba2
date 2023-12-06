@@ -1,0 +1,98 @@
+.external_block{
+    font-family: "Gill Sans", sans-serif;
+    color: purple;
+    background-color: slategrey;
+    height: 500px;
+    width: 1100px;
+    border: 5px solid cadetblue;
+}
+
+.external_head_block{
+    height: 120px;
+    width: 250px;
+    position: absolute;
+    left: 150px; bottom: 20px;
+    border: 5px solid darkblue;
+}
+
+.external_head{
+    height: 80px;
+    width: 150px;
+    text-align: center;
+    vertical-align: middle;
+    font-size: 25px;
+    border: 2px solid cyan;
+}
+
+.external_text_block{
+    height: 350px;
+    width: 1000px;
+    border: 5px solid darkblue;
+}
+
+.external_text{
+    text-align: center;
+    vertical-align: center;
+    font-size: 23px;
+}
+
+
+
+.popup-menu {
+    position: fixed;
+    top: 0px;
+    left: 0px;
+    background-color: yellow;
+    height: 80px;
+    width: 20px;
+    display: flex;
+    writing-mode: vertical-lr; 
+    font-size: 10px; 
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+}
+
+.submenu {
+    display: none;
+    position: absolute;
+    top: 0;
+    left: 0;
+    background-color: moccasin;
+    writing-mode: horizontal-tb;
+    width: 120px;
+    height: 70px;
+    padding: 5px;
+    text-align: center;
+}
+
+.submenu_text{
+    display: none;
+    position: absolute;
+    top: 0;
+    left: 120px;
+    background-color: yellow;
+    writing-mode: vertical-lr; 
+    width: 20px;
+    height: 70px;
+    padding: 5px;
+}
+
+.popup-menu:hover .submenu_text{
+    display: block;
+}
+
+.popup-menu:hover .submenu{
+    display: block;
+}
+
+.submenu a {
+    text-decoration: none;
+    color: black;
+}
+
+.icon {
+    width: 32px;
+    height: 32px;
+    margin-top: 5px;
+}
